@@ -26,5 +26,12 @@ public class Main {
 
         System.out.println("Pizza de bacon: " + bacon);
 
+        new Pizza.PizzaBuilder()
+                .setMolho(false)
+                .setQueijo(false)
+                .addRecheio(PizzaRecheios.FRANGO)
+                .addRecheio(PizzaRecheios.CATUPIRY)
+                .build();
+
     }
 }
