@@ -1,5 +1,5 @@
 # Ao Infinito e Além
-  Este projeto foi criado para exemplificar o uso do Builder Pattern em Java, como parte do 
+  Este projeto foi criado apenas com finalidades educacionais, para exemplificar o uso do Builder Pattern em Java, como parte do 
 nivelamento de conhecimento em Design Patterns, realizado por nosso time de desenvolvimento.
 
 ## Builder Pattern em Java
@@ -19,8 +19,8 @@ os argumentos são os mesmos e do lado do cliente é difícil de entender a orde
 1. Crie uma classe estática interna que representa o objeto que você deseja construir.
 2. Adicione atributos à classe interna para representar os atributos do objeto que você deseja construir.
 3. Adicione métodos setter à classe interna que definem os valores dos atributos do objeto que você deseja construir. 
- - O método setter pode ter outros prefixos diferentes do set, como with, por exemplo.
- - O método setter deve retornar a instância da classe interna para permitir a chamada encadeada.
+  - O método setter pode ter outros prefixos diferentes do set, como with, por exemplo.
+  - O método setter deve retornar a instância da classe interna para permitir a chamada encadeada.
 4. Adicione um método build() à classe interna que cria um objeto do tipo desejado e o retorna.
 5. Adicione um método estático à classe externa que retorna uma instância da classe interna.
 6. Chame os métodos setter na instância da classe interna e, finalmente, chame o método build() para obter o objeto desejado.
